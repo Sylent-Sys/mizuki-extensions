@@ -1,0 +1,15 @@
+[
+  {
+    "id": "open-blender-movies",
+    "name": "Blender Open Movies (Sample)",
+    "version": "1.0.0",
+    "description": "Official legal sample extension for Mizuki — streams Creative Commons open anime & movies",
+    "author": "Sylent-Sys",
+    "icon": "https://raw.githubusercontent.com/Sylent-Sys/mizuki/main/assets/branding/logo_light_square.png",
+    "type": "torrent",
+    "accuracy": "high",
+    "media": "sub",
+    "nsfw": false,
+    "code": "extensions/blender-movies.js"
+  }
+]
