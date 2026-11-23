@@ -1,0 +1,24 @@
+[
+  {
+    "id": "open-blender-movies",
+    "name": "Blender Open Movies (Sample)",
+    "version": "1.1.0",
+    "description": "Official Creative Commons sample extension for Mizuki streaming Blender Foundation open films.",
+    "author": "Sylent-Sys",
+    "icon": "https://raw.githubusercontent.com/Sylent-Sys/mizuki-extensions/main/assets/icon.png",
+    "type": "torrent",
+    "accuracy": "high",
+    "media": "sub",
+    "nsfw": false,
+    "update": "https://raw.githubusercontent.com/Sylent-Sys/mizuki-extensions/main/index.json",
+    "code": "extensions/blender-movies.js",
+    "options": {
+      "preferred_quality": {
+        "type": "select",
+        "description": "Preferred sample video resolution",
+        "default": "All",
+        "choices": ["All", "4K", "1080p", "720p"]
+      }
+    }
+  }
+]
